@@ -86,3 +86,5 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=/Applications/TextEdit.app/Contents/MacOS/TextEdit
 export ANDROID_HOME=~/Library/Android/sdk
 
+# Hide Java icon if running from terminal
+export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
